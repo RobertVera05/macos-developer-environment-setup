@@ -25,3 +25,62 @@ echo "🍺 Installing Homebrew..."
 
 echo "🔄 Updating and upgrading Homebrew..."
 brew update && brew upgrade
+
+########################################
+# Oh My Zsh
+########################################
+echo "💡 Installing Oh My Zsh"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+########################################
+# Programming Languages
+########################################
+echo "⌨️ Installing Programming Languages"
+brew install openjdk
+brew install gcc
+brew install rust
+brew install python
+brew install go
+brew install node
+
+########################################
+# Utilities
+########################################
+echo "🔨 Installing Extra Tools"
+brew install curl
+brew install git
+brew install nvm
+
+########################################
+# Casks
+########################################
+echo "💻 Installing GUI Applications"
+brew install --casks brave-browser
+brew install --casks 1kc-razer
+brew install --casks 1password
+brew install --casks clion
+brew install --casks datagrip
+brew install --casks discord
+brew install --casks docker
+brew install --casks intellij-idea
+brew install --casks microsoft-office
+brew install --casks plexamp
+brew install --casks postman
+brew install --casks private-internet-access
+brew install --casks pycharm
+brew install --casks rider
+brew install --casks rustrover
+brew install --casks transmission
+brew install --casks vlc
+brew install --casks webstorm
+brew install --casks whatsapp
+brew install --casks wireshark
+brew install --casks zed
+
+########################################
+# Cleanup
+########################################
+echo "🧹 Cleaning up..."
+brew cleanup
+
+echo "Developer environment setup is complete! Please restart your terminal."
