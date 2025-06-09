@@ -3,7 +3,7 @@
 # Exit on any error
 set -e
 
-echo " Starting MacOS developer environment..."
+echo "🏁 Starting MacOS developer environment setup..."
 
 # Ask for the administrator password upfront
 sudo -v
@@ -42,6 +42,9 @@ brew install rust
 brew install python
 brew install go
 brew install node
+brew install mongodb-community
+brew install mongosh
+brew install postgresql
 
 ########################################
 # Utilities
@@ -50,6 +53,9 @@ echo "🔨 Installing Extra Tools"
 brew install curl
 brew install git
 brew install nvm
+brew install vim
+brew install zsh
+brew install wget
 
 ########################################
 # Casks
