@@ -61,6 +61,7 @@ brew install wget
 # Casks
 ########################################
 echo "💻 Installing GUI Applications"
+brew install --casks iterm2
 brew install --casks brave-browser
 brew install --casks 1kc-razer
 brew install --casks 1password
