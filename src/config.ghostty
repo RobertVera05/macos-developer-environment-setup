@@ -1,0 +1,7 @@
+background-opacity = 0.5
+font-family = "JetBrainsMono NFM Regular"
+copy-on-select = clipboard
+window-save-state = always
+maximize = true
+theme = Brogrammer
+shell-integration-features = ssh-terminfo,ssh-env
