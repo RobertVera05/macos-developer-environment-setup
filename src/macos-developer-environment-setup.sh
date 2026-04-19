@@ -61,8 +61,8 @@ brew install wget
 # Casks
 ########################################
 echo "💻 Installing GUI Applications"
-brew install --casks iterm2
-brew install --casks brave-browser
+brew install --casks ghostty
+brew install --casks helium-browser
 brew install --casks 1kc-razer
 brew install --casks 1password
 brew install --casks clion
@@ -71,6 +71,7 @@ brew install --casks discord
 brew install --casks docker
 brew install --casks intellij-idea
 brew install --casks microsoft-office
+brew install --casks plex
 brew install --casks plexamp
 brew install --casks postman
 brew install --casks private-internet-access
