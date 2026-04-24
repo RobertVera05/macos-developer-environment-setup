@@ -56,6 +56,7 @@ brew install nvm
 brew install vim
 brew install zsh
 brew install wget
+brew install rust
 
 ########################################
 # Casks
@@ -82,8 +83,10 @@ brew install --casks transmission
 brew install --casks vlc
 brew install --casks webstorm
 brew install --casks whatsapp
-brew install --casks wireshark
+brew install --casks wireshark-app
 brew install --casks zed
+brew install --casks flutter
+brew install --casks android-studio
 
 ########################################
 # Cleanup
