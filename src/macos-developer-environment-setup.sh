@@ -71,7 +71,7 @@ brew install --casks datagrip
 brew install --casks discord
 brew install --casks docker
 brew install --casks intellij-idea
-brew install --casks microsoft-office
+brew install --casks libreoffice
 brew install --casks plex
 brew install --casks plexamp
 brew install --casks postman
@@ -87,6 +87,7 @@ brew install --casks wireshark-app
 brew install --casks zed
 brew install --casks flutter
 brew install --casks android-studio
+brew install --casks thunderbird
 
 ########################################
 # Cleanup
